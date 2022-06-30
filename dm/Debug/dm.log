@@ -1,0 +1,6 @@
+﻿  test.c
+D:\test_2022\dm\test.c(16,14): warning C4013: “CoInitialize”未定义；假设外部返回 int
+D:\test_2022\dm\test.c(18,13): warning C4013: “LoadLibrary”未定义；假设外部返回 int
+test.obj : error LNK2019: 无法解析的外部符号 _CoInitialize，函数 _main 中引用了该符号
+test.obj : error LNK2019: 无法解析的外部符号 _LoadLibrary，函数 _main 中引用了该符号
+D:\test_2022\dm\Debug\dm.exe : fatal error LNK1120: 2 个无法解析的外部命令
